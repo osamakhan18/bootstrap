@@ -1,0 +1,152 @@
+
+#text{
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+#groupbtn{
+    margin-left: 20px;
+    margin-right: 20px;
+margin-top: 200px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+height: 100px;
+background-color: rgb(219, 226, 231);
+border-radius: 5px;
+}
+
+button :hover{
+    background-color: rgb(51, 47, 47);
+    width:fit-content;
+    padding:  0.8rem 1rem;
+     
+}
+
+.images{
+    width: 160px;
+    height: 130px;
+    background-color: rgb(172, 226, 208);
+    border-radius: 10px;
+    
+    
+}
+
+.images:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+#icons{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#donate{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.bgimg{
+    margin-top: 30px;
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    position: relative;
+    display: flex;
+    
+}
+.opacity{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.bgimg img{
+    width: 100%;
+    height: 100%;
+   
+}
+
+.bgimg .para{
+    position: absolute;
+   
+    /* width: 40%; */
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    margin-top:230px ;
+    
+}
+.bgimg .btn-success{
+    position: absolute;
+    width: 95%;
+    z-index: 20;
+    bottom: 0;
+    margin-left: 10px;
+}
+
+
+.d-grid{
+    width: 45%;
+}
+
+.d-grid img{
+    border-top-left-radius: 80px;
+    overflow: hidden;
+}
+
+.saylani-serve-child .w-50{
+    border: 1px solid #fff;
+}
+
+.saylani-serve-child .saylani-serve-child-one{
+    background-color: #a4d83b;
+    border-top-left-radius: 80px;
+    overflow: hidden;
+}
+
+#contentimg{
+    display: flex;
+    justify-content: space-around;
+}
+
+#content{
+    width: 650px;
+    height: fit-content;
+   
+    
+    margin-top: 40px;
+
+}
+
+h5{
+    color: rgb(65, 65, 192);
+}
+
+#videos{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#cardpic{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+#guide{
+    background-color:rgb(121, 121, 224);
+    width: 1200px;
+    height: 300px;
+    margin: 0 auto;    
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
